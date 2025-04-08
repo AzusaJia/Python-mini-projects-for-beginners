@@ -4,7 +4,6 @@ import math
 
 # input the password's length
 def len_input():
-    asc = string.digits + string.ascii_letters + string.punctuation
     pw_len = int(input("please input the length of password: "))
     # di_le:50%    le_len:30%    pun_len:20%
     di_len = int(pw_len / 2)
